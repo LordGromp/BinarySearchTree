@@ -14,7 +14,7 @@ int main(int argc, char** argv)
     {
         Add(&root, new Node(min + (std::rand() % (max - min + 1))));
     }
-    
+    //need to make this run through a switch case
     Find(root, lookFor);
 
     Print(root);
